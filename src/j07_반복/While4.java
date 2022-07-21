@@ -19,22 +19,7 @@ public class While4 {
 		i++;
 		}
 	
-		int dan2 = 0;
-		int num2 = 0;
-		i = 0;
-		
-		while(i < 8) {
-			dan2 = i + 2;
-			System.out.println(dan2 + " x " + num2 + " = " + (dan2 * num2));
-			int j = 0;
-
-			while(j < 9) {
-				num2 = j + 1;
-				System.out.println(dan2 + " x " + num2 + " = " + (dan2 * num2));
-				j++;
-		}
-			i++;
-			}
+	
 	}
 	
 
