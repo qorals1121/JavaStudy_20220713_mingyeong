@@ -30,7 +30,7 @@ public class UserService {
 			}
 			
 		}else if(select.equals("2")) {
-		
+			while(showUserSearch()) {};
 		}else if(select.equals("q")) {
 			System.out.println("프로그램 종료중 . . .");
 			return false;
@@ -91,9 +91,9 @@ public class UserService {
 		select = scanner.nextLine();
 		
 		if(select.equals("1")) {
-			
+			showUserList();
 		}else if(select.equals("2")) {
-			
+			showSearchUser();
 		}else if(select.equals("b")) {
 			System.out.println("이전 메뉴로 돌아갑니다.");
 			return false;
