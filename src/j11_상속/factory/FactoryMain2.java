@@ -24,5 +24,9 @@ public class FactoryMain2 {
 		for(int i = 0; i < factories.length; i++) {
 			factories[i].stop();
 		}
+		
+		
+		
+		
 	}
 }
