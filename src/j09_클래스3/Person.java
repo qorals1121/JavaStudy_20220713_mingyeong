@@ -1,6 +1,6 @@
 package j09_클래스3;
 
-public class Person {
+public abstract class Person {
 	String name;
 	int age;
 	
@@ -21,6 +21,15 @@ public class Person {
 	public String getName() {
 		return name;
 	}
+	
+	public abstract String mealTime();
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + "]";
+	}
+	
+	
 	
 	
 
