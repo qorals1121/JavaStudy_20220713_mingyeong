@@ -34,7 +34,7 @@ public class KIA {
 
 //		Car car = new Car(++autoCode, company, model);
 		
-		Car car = car.builder()
+		Car car = Car.builder()
 				.carNumber(carNumber)
 				.company(company)
 				.model(model)
