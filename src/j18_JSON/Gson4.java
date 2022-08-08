@@ -23,7 +23,6 @@ public class Gson4 {
 		
 		System.out.println(jsonObject);
 		
-		JsonObject jsonObj = gson.fromJson(jsonObject, jsonObject.class);
 		
 		System.out.println(jsonObj);
 
