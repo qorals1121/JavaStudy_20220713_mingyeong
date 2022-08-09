@@ -30,7 +30,9 @@ public class StrTestMain {
 		consumer.accept("김준일");
 		consumer.andThen(consumer).andThen(consumer).accept("김준이");
 		
-		Function<Integer, String> f = (num)
+		Function<Integer, String> f = (num) -> Integer.toString(num);
+		
+		System.out.println(f.apply(100));
 
  	
 	}
