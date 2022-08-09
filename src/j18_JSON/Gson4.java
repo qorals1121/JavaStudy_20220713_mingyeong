@@ -24,7 +24,6 @@ public class Gson4 {
 		System.out.println(jsonObject);
 		
 		
-		System.out.println(jsonObj);
 
 	}
 
